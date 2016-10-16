@@ -1,0 +1,11 @@
+C-extensions make cpu-intense IOTA functions up to 100 times faster, as this benchmark shows
+
+INSTALL and TEST
+----------------
+- Tested on Linux with gcc compiler installed
+- For seup, It is possible that you have to install the distutils extension available for Python.
+- Extension is compatible with Python version 2.7.x
+- To install extension in Python execute:
+     python setup.py install
+- To perform a test:
+     python test.py
